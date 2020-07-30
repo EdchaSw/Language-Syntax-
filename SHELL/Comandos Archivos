@@ -1,0 +1,43 @@
+# Al estar en una carpeta tecla uso de tab
+Tab -- rellena con el nombre de carpeta o archivo que coincida
+
+# Mostrar que directorio en que te encuentras.
+pwd
+
+# cambiar a la carpeta de login
+cd
+
+# cambiar a la carpeta anterior
+cd ..
+
+# cambiar a la carpeta raiz
+cd /
+
+# le lleva al directorio principal del root, o superusuario, 
+#debe ser el usuario root para accesar este directorio.
+cd /root
+
+# lo lleva a su directorio principal home
+cd /home	
+
+# Mostrar contenido de una carpeta
+ls
+# ejemplo
+ls /etc
+
+# crear carpeta (con la URL no necesita estar en la carpeta)
+mkdir carpeta_nueva
+mkdir /etc/carpeta_nueva
+
+# copiar archivos o carpetas
+cp nombre_archivo.txt nuevo_archivo.txt
+cp nombre_archivo*.txt nombre_carpeta
+
+# mover o renombrar archivos y carpeta
+mv nombre_archivo.txt nombre_carpeta
+mv nombre_archivo.txt nuevo_nombre.txt
+
+# borrar archivos o carpetas -f no pregunta -r borra contenido directotio qrecursivamente
+rm nombre_archivo.txt
+rm -rf nombre_carpeta
+

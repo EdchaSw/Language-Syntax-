@@ -1,0 +1,5 @@
+# ver el uso o manual de un comando
+man <comando> 
+ej: man ls
+# Para salir de man
+q
