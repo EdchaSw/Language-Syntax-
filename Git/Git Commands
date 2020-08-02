@@ -1,0 +1,4 @@
+La manera más sencilla de evitar que git solicite usuario y contraseña cada vez,
+es establecer un asistente de credenciales en la configuración de git:
+ 
+$ git config --global credential.helper store
