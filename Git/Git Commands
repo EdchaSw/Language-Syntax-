@@ -2,3 +2,17 @@ La manera más sencilla de evitar que git solicite usuario y contraseña cada ve
 es establecer un asistente de credenciales en la configuración de git:
  
 $ git config --global credential.helper store
+
+para mostrar los commit y navegar entre ellos
+
+1° mostrar los commit
+$ git reflog
+
+2° delos commit que muestra tomar el hash de 7 codigos para ir archivos
+$ git checkout c9cc30a
+
+3° tomar el hash del ultimo commit para regresar a él
+$ git checkout d810da4
+
+4° o usamos el siguiente comando
+$ git checkout master
