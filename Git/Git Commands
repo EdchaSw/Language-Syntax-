@@ -16,3 +16,8 @@ $ git checkout d810da4
 
 4° o usamos el siguiente comando
 $ git checkout master
+
+Inicializar Git flow
+$ git flow init
+Already initialized for gitflow.
+To force reinitialization, use: git flow init -f
